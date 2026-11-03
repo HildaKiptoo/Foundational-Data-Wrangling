@@ -21,22 +21,3 @@ This notebook guides you through the foundational steps of a data analytics work
 * `matplotlib` - Foundational plotting
 * `seaborn` - Statistical data visualization
 * `plotly` - Interactive graphing
-
-## Setup and Installation
-To run this notebook locally, ensure you have Python installed, along with Jupyter Notebook or an IDE like PyCharm/VS Code. 
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/Foundational-Data-Wrangling.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd Foundational-Data-Wrangling
-   ```
-3. Install the required dependencies:
-   ```bash
-   pip install pandas numpy matplotlib seaborn plotly nbformat
-   ```
-
-## Usage
-Open `StudentsPerformance_with_Plotly.ipynb` in your preferred Jupyter environment and run the cells sequentially. Because the dataset is generated at runtime with a fixed random seed (`np.random.seed(42)`), the results and visualizations will be identical every time you run it, making it a perfect reference guide for foundational Python skills.
